@@ -1,0 +1,88 @@
+body {
+  background-image: url("poppy-flower-painting-elegant-poppy-flowers-watercolor-painting-free-stock-of-poppy-flower-painting.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  color:white;text-align:center;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size:300px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:lightblue;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {background-color:grey;font-size: 30px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:grey;font-size: 30px;}
+
+input[type=text] {
+  width: 100%;
+  box-sizing:content-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: left;
+  padding: 12px 20px 12px 40px;
+  text-align: center;
+  }
+  form {
+      margin-left: 25%;
+      margin-right:25%;
+      width: 50%;
+  }
+  h2{
+    color:white;
+    text-indent: 50px;
+    text-align: center;
+      font-size: 40px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {margin:25px;}
+p{color: white;font-size: 40px;text-indent:550px;}
+
+footer {
+    background-color: lightgrey;
+    padding: 10px;
+    text-align:left;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: fantasy;
+    margin:50px;
+  }
